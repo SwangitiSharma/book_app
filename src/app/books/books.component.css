@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.card {
+  flex-basis: 15%;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 5px;
+  margin: 2%;
+  background-color: white
+}
+
+.image img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+  height: 92px;
+  font-size: 20px;
+}
+
+.des {
+  padding: 3px;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.purchase {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.purchase:hover {
+  background-color: skyblue;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.author-summary {
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.body {
+  font-family: arial;
+  background: #7f9ead;
+}
+
+.container {
+  width: 100%;
+  border-top: 1px solid red;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1613px;
+}
+
+.addBookForm {
+  text-align: center
+}
+
+.addBtn {
+  float: right;
+}
+
+.sort {
+
+  margin: 2%;
+  padding: 5px;
+}
+
+.span {
+  padding-left: 5px;
+}
+
+.input {
+  width: 500px;
+  margin: auto
+}
+
+.bttn {
+  padding: 10px;
+  margin: 2%
+}
+
+@media only screen and (min-width:200px) and (max-width : 767px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
+}
