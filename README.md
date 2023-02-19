@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Initial Setup
 
 Run the following commands from the root of the repo:
-`git clone 
+`git clone git@github.com:SwangitiSharma/book_app.git
 cd book_app
 npm install`
 
